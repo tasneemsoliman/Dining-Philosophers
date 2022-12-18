@@ -1,10 +1,10 @@
 package os2project;
 
 public class Transaction implements Runnable{
-    State hlp;
+    Status hlp;
     Account ch, sa;
     int id;
-    public Transaction(int id, Account ch, Account sa, State i) {
+    public Transaction(int id, Account ch, Account sa, Status i) {
     this.hlp = i;
     this.ch = ch;
     this.sa = sa;

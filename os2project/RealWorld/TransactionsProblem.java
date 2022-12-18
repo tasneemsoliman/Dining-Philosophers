@@ -183,7 +183,7 @@ public class TransactionsProblem {
 
     Account[] s = new Account[5];
     Transaction[] f = new Transaction[5];
-    State hlp = new State();
+    Status hlp = new Status();
     for (int i = 0; i < 5; i++) {
       s[i] = new Account();
     }
